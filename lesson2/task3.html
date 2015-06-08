@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>forms</title>
+</head>
+<body>
+<form action="handler.php" enctype="multipart/form-data" method="post">
+<p>Name</p>
+   <p>
+    <input type="text" id="check1"><label for="check1"></label></p>
+<p>Email</p>
+    <p><input type="text" id="check2"><label for="check2"></label></p>
+    <p>Sex</p>
+    <p><input name="sex" type="radio" value="male" id="check3"><label for="check3">Male</label></p>
+    <p><input name="sex" type="radio" value="female" id="check4"><label for="check4">Female</label></p>
+    <p>Current status</p>
+    <p><input type="checkbox" name="a" value="student" id="check5"><label for="check5">Student</label></p>
+    <p><input type="checkbox" name="a" value="employed" id="check6"><label for="check6">Employed</label></p>
+    <p><input type="checkbox" name="a" value="unemployed" id="check7"><label for="check7">Unemployed</label></p>
+    <p>Month and Year of birth</p>
+    <p><select name="select" size="1">
+        <option selected value="s1">January</option>
+        <option value="s2">February</option>
+        <option value="s3">March</option>
+    </select></p>
+    <p><select name="select" size="1">
+        <option selected value="s1">1990</option>
+        <option value="s2">1995</option>
+        <option value="s3">2000</option>
+    </select></p>
+    <p>Skills and Technologies</p>
+    <p><select name="skills">
+        <optgroup label="Tech skills">
+            <option value="u1">HTML</option>
+            <option value="u2">CSS</option>
+            <option value="u3">JavaSkript</option>
+            <option value="u4">git</option>
+        </optgroup>
+        <optgroup label="Soft skills">
+            <option value="u5">Time management</option>
+            <option value="u6">Proactivity</option>
+            <option value="u7">Teamwork</option>
+            <option value="u8">Leadership</option>
+        </optgroup>
+    </select></p>
+    <p>Photo</p>
+    <p>
+        <input type="file" name="f">
+    </p>
+        <p>Comment</p>
+      <p><textarea name="comment" id="check9"></textarea></p>
+        <p><input type="submit"></p>
+    </form>
+</body>
+</html>
