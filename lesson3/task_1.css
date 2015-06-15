@@ -1,0 +1,59 @@
+h1{
+    color: orange;
+    text-align: center;
+    font-size: 24pt;
+}
+p{
+    text-align: left;
+}
+.firstletter {
+    color: red;
+    font-weight: bold;
+    font-size: 20pt;
+}
+.green {
+    color: white;
+    background-color: green;
+    font-style: italic;
+    font-weight: bold;
+}
+.orange {
+    color: orange;
+    font-weight: bold;
+    font-size: 15pt;
+}
+.blue {
+    color: blue;
+    font-weight: bold;
+    font-size: 15pt;
+}
+.grey {
+    color: grey;
+}
+.red {
+    color: red;
+}
+.green2 {
+    color: forestgreen;
+}
+.table{
+    width: 50%;
+    border: 1px solid;
+}
+.title {
+    color: black;
+    font-weight: bold;
+    font-size: 15pt;
+    text-align: center;
+}
+.names {
+    text-align: left;
+    color: orange;
+    font-size: 12pt;
+}
+.numbers {
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 12pt;
+}

@@ -1,0 +1,10 @@
+.class1 {
+    color: #f70;
+}
+a.external[href^="https://mail.yandex.ua/"]:after {
+content: url(http://yraaa.ru/_pu/5/13547833.png);
+padding-right: 13px;
+}
+.class3 {
+    color: #666;
+}
