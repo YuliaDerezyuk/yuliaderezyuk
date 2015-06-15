@@ -1,0 +1,15 @@
+input:checked.div + span.red {
+color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+span.green {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+span.blue {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
