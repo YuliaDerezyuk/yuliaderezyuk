@@ -1,14 +1,14 @@
-input:checked.div + span.red {
+input#red:checked ~ span.red {
 color: white;
     background-color: red;
     border-radius: 5px;
 }
-span.green {
+input#green:checked ~ span.green {
     color: white;
     background-color: green;
     border-radius: 5px;
 }
-span.blue {
+input#blue:checked ~ span.blue {
     color: white;
     background-color: blue;
     border-radius: 5px;
